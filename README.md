@@ -35,5 +35,16 @@ Na próxima tela temos a configuração de Rede
 - Fazer a adição de um novo disco não temos reinicio da máquina, processo é a quente
 Mas para mudar o SKU da VM, ela vai ser reiniciada
 
+# desatachar discos
+Discos podem ser desatachados e adicionados em outros servidores
+
+# Disponibilidade de máquinas virtuais
+Dependendo da aplicação temos que garantir níveis maiores de disponibilidade, o Azure trás várias formas de criar mais resiliência para o ambiente.
+- Podemos realizar um escalonamento manual (scaling)
+- Podemos ter um escalonamento automático em cima de métricas como performances(CPU ou memória), ou a um dia específico.
+- Posso organizar as vms em um availability set que é um agrupamento de máquinas em racks diferentes para garantir mais disponibilidade em casos de falha de hardware por exemplo
+
+
+
 
 
