@@ -11,9 +11,9 @@ Podemos criar uma máquina virtual de 4 formas:
 # Criação de máquina virtual pelo portal do Azure
 
 Na tela inicial da criação de uma VM devemos definir
-1º Definir qual Resource Group a VM vai pertencer (item obrigatório)
-2º Um nome para a VM
-3º Qual a região será alocada
+	1º Definir qual Resource Group a VM vai pertencer (item obrigatório)
+	2º Um nome para a VM
+	3º Qual a região será alocada
 4º O tipo de segurança que pode ser "standard", "trusted launch virtual machines" ou "confidential virtual machines"
 5º Uma imagem com sistema operacional (podemos escolher entre diversas imagens, ou subir imagens personalizadas.)
 6º A arquitetura
